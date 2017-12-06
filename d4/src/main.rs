@@ -1,6 +1,5 @@
-mod d4;
-mod d5;
+mod d6;
 
 fn main() {
-    d5::d5_main();
+    d6::d6_main();
 }

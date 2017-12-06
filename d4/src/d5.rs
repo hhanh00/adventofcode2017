@@ -36,6 +36,6 @@ pub fn d5_main() {
     let r = BufReader::new(&f);
 
     let mut c: Vec<i32> = r.lines().map(|line| line.unwrap().parse().unwrap()).collect();
-    let steps = run_program(&mut c);
+    let steps = run_program1(&mut c);
     println!("{:?}", steps);
 }
