@@ -1,5 +1,7 @@
-mod d6;
+extern crate regex;
+
+mod d7;
 
 fn main() {
-    d6::d6_main();
+    d7::main();
 }
