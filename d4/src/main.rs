@@ -1,7 +1,7 @@
 extern crate regex;
 
-mod d7;
+mod d8;
 
 fn main() {
-    d7::main();
+    d8::main();
 }
