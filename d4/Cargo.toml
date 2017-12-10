@@ -5,3 +5,4 @@ authors = ["Hanh <hanh.huynhhuu@cashalgo.com>"]
 
 [dependencies]
 regex = "0.2"
+hex = "0.3"
