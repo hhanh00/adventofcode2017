@@ -6,15 +6,15 @@ pub fn main() {
   let r = BufReader::new(&f);
 
   let line = r.lines().next().unwrap().unwrap();
-  let steps: Vec<&str> = line.split(",").collect();
+  let steps = line.split(",");
 
   let mut x: i32 = 0;
   let mut y: i32 = 0;
   let mut z: i32 = 0;
   let mut max_d = 0;
 
-  for step in steps.iter() {
-    match *step {
+  for step in steps {
+    match step {
       "ne" => {
         x += 1; z -= 1;
       },
